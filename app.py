@@ -14,7 +14,7 @@ st.sidebar.header("🔍 Upload Your PDF")
 uploaded_file = st.sidebar.file_uploader("Choose a PDF file", type="pdf")
 
 # Initialize Groq Client (Replace with your API key)
-client = Groq(api_key="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")
+client = Groq(api_key="enter your api key")
 
 # Load Sentence Transformer model
 embed_model = SentenceTransformer("all-MiniLM-L6-v2")
